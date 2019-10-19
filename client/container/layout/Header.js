@@ -3,18 +3,11 @@ import { Link, withRouter } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <nav className="nav navbar-default">
-      <div className="navbar-header">
-        <Link to="/" className="navbar-brand">CS Trophy Gestion</Link>
-      </div>
-      <ul className="nav navbar-nav">
-        <li>
-          <Link to="#">Utilisateurs</Link>
-        </li>
-        <li>
-          <Link to="/saisie_acte">Saisie Acte</Link>
-        </li>
-       </ul>
+    <nav className="nav">
+      <Link to="/" className="nav-link">CS Trophy Gestion</Link>
+      <Link to="/login" className="nav-link">Login</Link>
+      <Link to="/saisie_acte" className="nav-link">Saisie Acte</Link>
+      
     </nav>
   )
 }

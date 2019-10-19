@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 import Home from '../client/container/home/Home'
+import Login from '../client/components/login/Login'
 import SaisieActe from './container/saisie_acte/SaisieActe'
 
 const routes = (
@@ -10,6 +11,7 @@ const routes = (
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path="/saisie_acte" component={SaisieActe}/>
+        <Route path="/login" component={Login} />
       </Switch>
     </BrowserRouter>
   </>
