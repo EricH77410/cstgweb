@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Layout from '../../layout/Layout'
 import Arcade from '../schema_dentaire/Arcade'
 
 const SaisieActe = (props) => {
   return (
-    <>
+    <Layout>
     <div className="row">
       <div className="col-9 offset-1">
       HEADER
@@ -24,7 +24,7 @@ const SaisieActe = (props) => {
       
     </div>
     <div>LISTE ACTES</div>
-    </>
+    </Layout>
   )
 }
 

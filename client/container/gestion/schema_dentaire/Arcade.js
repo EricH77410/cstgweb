@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Dent from '../../components/dent/Dent'
+import Dent from '../../../components/dent/Dent'
 
 class Arcade extends Component {
 

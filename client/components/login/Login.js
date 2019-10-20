@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Layout from '../../container/layout/Layout'
 import LoginItem from './LoginItem'
 
 const praticiens = [
@@ -26,6 +27,7 @@ const Login = () => {
     />
   })
   return (
+    <Layout>
     <div className="row login-background">
       <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div className="card card-signin my-5">
@@ -45,7 +47,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-    
+    </Layout> 
   )
 }
 
